@@ -1,0 +1,28 @@
+{
+    "name": "primeng-sass-theme",
+    "version": "17.17.0",
+    "description": "PrimeNG Sass Theme",
+    "homepage": "https://primeng.org/",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/primefaces/primeng-sass-theme.git"
+    },
+    "scripts": {
+        "build": "sass --update themes/lara/lara-light/riverty/theme.scss:themes/lara/lara-light/riverty/riverty-theme.css",
+        "watch": "node-sass --output-style compressed --source-map true --source-map-contents true --source-map-embed true --source-map-root ../../../../src --include-path node_modules src/primeng.scss dist/primeng.css --watch"
+    },
+    "keywords": [
+        "primeng",
+        "angular",
+        "ui framework",
+        "component framework",
+        "ui library",
+        "component library",
+        "material",
+        "bootstrap"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/primefaces/primeng-sass-theme/issues"
+    }
+}
